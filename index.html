@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wanderlens — Travel Photography</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="page-body">
@@ -25,14 +26,22 @@
     <img src="images/argentina/iguazu/DSC03718.jpg" alt="Travel photography hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1>Stories Through a Lens</h1>
+      <span class="hero-eyebrow">Travel Photography</span>
+      <h1>Stories Through<br><em>a Lens</em></h1>
       <p>Capturing the beauty, culture, and spirit of places around the world.</p>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <h2 class="fade-in" style="margin-bottom: 40px;">Destinations</h2>
+      <div class="section-title fade-in">
+        <span class="section-label">Destinations</span>
+        <h2>Where I've Been</h2>
+      </div>
       <div class="cards-grid">
         <a href="country/bolivia/index.html" class="card fade-in">
           <img src="images/Bolivia/Uyuni/compressed/DSC05651.webp" alt="Bolivia">
@@ -66,14 +75,14 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" style="padding-top: 0;">
     <div class="container">
       <div class="comments-section fade-in">
         <h2>Leave a Comment</h2>
         <script src="https://utteranc.es/client.js"
           repo="Ashdabash2926/travel-portfolio"
           issue-term="pathname"
-          theme="github-light"
+          theme="github-dark"
           crossorigin="anonymous"
           async>
         </script>
